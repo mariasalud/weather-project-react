@@ -1,16 +1,12 @@
-import logo from './logo.svg';
+import ReactDom from "react-dom";
+import Weather from "./Weather";
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <h1>
-         weather project react
-        </h1>
-        
-      </header>
+      <Weather />
     </div>
   );
 }
